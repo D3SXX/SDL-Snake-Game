@@ -42,4 +42,10 @@ Follow the instructions below to build:
 
   g++ -o snake.exe main.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -mwindows -lm -ldinput8 -ldxguid -ldxerr8 -luser32 -lgdi32 -lwinmm -limm32 -lole32 -loleaut32 -lshell32 -lversion -luuid -static-libgcc -static-libstdc++  
 
+- For Linux use 
+
+.. code-block:: shell
+
+    g++ -o snake main.cpp -lSDL2 -lSDL2_ttf -lm -lX11 -lXrandr -lXi -lXinerama -lXcursor -lpthread -ldl
+
 6. Launch the executable
